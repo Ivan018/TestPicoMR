@@ -35,7 +35,7 @@ MonoBehaviour:
   sharedAnchor: 0
   spatialMesh: 0
   planeDetection: 0
-  secureMR: 0
+  secureMR: 1
   meshLod: 0
   superResolution: 0
   normalSharpening: 0
