@@ -1,0 +1,29 @@
+[2026-03-02 16:42:51.722] [PSS] [info] ***********  Log Begin **********
+[2026-03-02 16:42:51.722] [PSS] [info] process id= 16052
+[2026-03-02 16:42:51.722] [PSS] [debug] [16052|53132]streaming_driver_interface_impl.cpp:19 StreamingDriverInterfaceImpl: callback= 0x1bc522f4750, this= 0x1bc12fdb020
+[2026-03-02 16:42:51.722] [PSS] [error] [16052|53132]streaming_driver_interface_impl.cpp:115 SetTrackingOrigin: streaming not started, this= 0x1bc12fdb020
+[2026-03-02 16:42:51.722] [PSS] [info] [16052|53132]streaming_driver_interface_impl.cpp:24 ConnectToService: connect to service, client_id= IiYjpuISw7xej7dN, this= 0x1bc12fdb020
+[2026-03-02 16:42:51.722] [PSS] [info] [16052|53132]streaming_client_impl.cpp:25 ConnectToService: client_id= IiYjpuISw7xej7dN, name= 3D Engine, desp= StreamingSceneRender, this= 0x1bc679db0d0
+[2026-03-02 16:42:51.722] [PSS] [debug] [16052|28588]streaming_client_impl.cpp:137 InvokeConnectToService: connect to service through the network, port= 54000, this= 0x1bc679db0d0
+[2026-03-02 16:42:51.722] [PSS] [debug] [16052|28588]transport_client_tcp3.cpp:34 Start: buffer size(send\recv): 2097152\2097152, this= 0x1bb97cd1760
+[2026-03-02 16:42:51.722] [PSS] [info] [16052|28588]transport_client_tcp3.cpp:59 Start: server= 127.0.0.1:54000, local=0.0.0.0:0, this= 0x1bb97cd1760
+[2026-03-02 16:42:51.722] [PSS] [info] [16052|17388]streaming_client_impl.cpp:62 NotifyConnectResult: network connect to service result= 0, this= 0x1bc679db0d0
+[2026-03-02 16:42:51.722] [PSS] [debug] [16052|28588]streaming_client_impl.cpp:150 InvokeConnectToServiceByRpc: begin to connect to service by rpc, this= 0x1bc679db0d0
+[2026-03-02 16:42:51.722] [PSS] [debug] [16052|17388]transport_client_tcp3.cpp:136 HandleConnect: local= 127.0.0.1:51267, this= 0x1bb97cd1760
+[2026-03-02 16:42:51.723] [PSS] [info] [16052|28588]rpc.cpp:81 Start: start, request id begin from 6588, this= 0x1bb09a3f2f0
+[2026-03-02 16:42:51.723] [PSS] [debug] [16052|28588]streaming_client_impl.cpp:171 InvokeConnectToServiceByRpc: connecting to service success, client_id= IiYjpuISw7xej7dN, this= 0x1bc679db0d0
+[2026-03-02 16:42:51.724] [PSS] [info] [16052|28588]streaming_client_impl.cpp:238 HandleConnectToServiceResp: connect response {result { description: "Success" } client_id: "IiYjpuISw7xej7dN" service_id: "xre_ho9GBkaE" service_version: "2.3.1.8"}, this= 0x1bc679db0d0
+[2026-03-02 16:42:51.724] [PSS] [info] [16052|28588]streaming_driver_interface_impl.cpp:326 NotifyClientConnectResult: client connected, client_id= IiYjpuISw7xej7dN, service_version= 2.3.1.8, this= 0x1bc12fdb020
+[2026-03-02 16:42:51.724] [PSS] [info] [16052|28588]streaming_driver_interface_impl.cpp:382 HandleUpdateHMDStateEvent: update hmd state {state_type: kHMDDeviceStateConnected device_id: "PA9410MGK3190053G" device_name: "PICO 4 Ultra Enterprise" connection_type: kConnectionUsb description: "Add Device"}, this= 0x1bc12fdb020
+[2026-03-02 16:42:51.733] [PSS] [info] [16052|53132]streaming_driver_interface_impl.cpp:50 StartStreaming: start streaming, {width: 1920 height: 1920 frame_rate: 72}, this= 0x1bc12fdb020
+[2026-03-02 16:42:57.525] [PSS] [info] [16052|28588]streaming_driver_interface_impl.cpp:418 HandleUpdateStreamingStateEvent: update streaming state {}, this= 0x1bc12fdb020
+[2026-03-02 16:42:57.525] [PSS] [error] [16052|28588]streaming_driver_interface_impl.cpp:429 HandleUpdateStreamingStateEvent: streaming has not been started, session_id= , this= 0x1bc12fdb020
+[2026-03-02 16:42:57.565] [PSS] [info] [16052|28588]streaming_driver_interface_impl.cpp:382 HandleUpdateHMDStateEvent: update hmd state {state_type: kHMDDeviceStateDisconnected device_id: "PA9410MGK3190053G" device_name: "PICO 4 Ultra Enterprise" connection_type: kConnectionUsb description: "Remove Device"}, this= 0x1bc12fdb020
+[2026-03-02 16:42:57.565] [PSS] [error] [16052|28588]streaming_driver_interface_impl.cpp:396 HandleUpdateHMDStateEvent: check device_id failed, this= 0x1bc12fdb020
+[2026-03-02 16:43:46.522] [PSS] [error] [16052|17388]transport_client_tcp3.cpp:210 HandleReceiveDataResult: receive error= 10054, msg= 远程主机强迫关闭了一个现有的连接。
+[2026-03-02 16:43:46.522] [PSS] [error] [16052|17388]transport_client_tcp3.cpp:157 HandleAsyncError: error code: 10054, this= 0x1bb97cd1760
+[2026-03-02 16:43:46.522] [PSS] [info] [16052|17388]streaming_client_impl.cpp:77 NotifyDisconnect: network disconnect, result= 10054, this= 0x1bc679db0d0
+[2026-03-02 16:43:46.522] [PSS] [debug] [16052|17388]transport_client_tcp3.cpp:171 HandleAsyncError: close socket, this= 0x1bb97cd1760
+[2026-03-02 16:43:46.522] [PSS] [debug] [16052|28588]streaming_client_impl.cpp:218 HandleNetworkDisconnect: handle network disconnect,reason= 10054, this= 0x1bc679db0d0
+[2026-03-02 16:43:46.522] [PSS] [error] [16052|17388]transport_client_tcp3.cpp:102 ReceiveDataLoop: "not connected", !running_, this= 0x1bb97cd1760
+[2026-03-02 16:43:46.522] [PSS] [debug] [16052|28588]transport_client_tcp3.cpp:79 Stop: called, this= 0x1bb97cd1760
